@@ -1,1 +1,1 @@
-B4W1O1-Manege
+Vergeet niet de config.php voor gebruik aan te passen aan jouw ontwikkel omgeving.

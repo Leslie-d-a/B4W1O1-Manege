@@ -1,11 +1,11 @@
 <?php 
 	echo $divOpen;
 	foreach($horses as $index=>$horse){
-		if($index % 2 == 0 && $index != 0){
+		if($index % 3 == 0 && $index != 0){
 			echo $divClose.$divOpen;
 		}
 ?>
-<div class="col col-lg-6">
+<div class="col col-lg-4">
 	<div class="card m-3 text-white bg-dark border-white">
 	<img src="<?= URL?>images/<?= $horse['img']?>" class="card-img-top" alt="...">
 	<div class="card-body">

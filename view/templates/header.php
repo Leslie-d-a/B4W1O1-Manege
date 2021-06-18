@@ -10,3 +10,12 @@
 </head>
 <body class="bg-dark">
 <div id="container">
+<header>
+	<nav>
+		<ul class="m-0">
+			<li>
+				<a class="p-1 text-white text-decoration-none" href="<?= URL?>manege/index">HOME</a>
+			</li>
+		</ul>
+	</nav>
+</header>
